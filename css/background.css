@@ -1,0 +1,26 @@
+body{
+    font-family: Consolas, serif;
+    font-size: 20px;
+    background-image: url("../images/background1.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 280px 280px;
+    grid-row-gap: 25px;
+    padding: 70px;
+}
+#education{
+    padding: 60px;
+    background-color: rgba(228,181,181,0.9);
+    grid-column: 1/5;
+    grid-row:1/2 ;
+}
+#skill{
+    padding: 60px;
+    background-color: rgba(228,181,181,0.9);
+    grid-column: 2/6;
+    grid-row: 2/3;
+}

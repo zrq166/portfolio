@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+}
+
+/* --- Navbar --- */
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-family: Consolas, serif;
+    font-size: 18px;
+}
+nav ul {
+    background-color: rgb(255,252,245);
+    list-style: none;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+    float: right;
+}
+nav li:last-child{
+    float:left;
+}
+
+
+nav li a {
+    color:#111;
+    display: block;
+    padding: 16px 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: lightgray;
+}
+.current{
+    background-color: rosybrown;
+    font-weight: bold;
+}

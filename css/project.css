@@ -1,0 +1,37 @@
+img{
+    display: block;
+}
+body{
+    font-family: Consolas, serif;
+    font-size: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 70px;
+    padding: 70px;
+}
+#p1{
+    padding: 50px;
+    grid-column: 1/2;
+    grid-row:1/2 ;
+    border: 3px rosybrown solid;
+}
+#p1-img{
+    grid-column: 2/3;
+    grid-row:1/2 ;
+    height: 300px;
+}
+#p2{
+    padding: 50px;
+    grid-column: 2/3;
+    grid-row:2/3 ;
+    border: 3px rosybrown solid;
+}
+#p2-img{
+    grid-column: 1/2;
+    grid-row:2/3 ;
+    height: 300px;
+    width: 500px;
+}

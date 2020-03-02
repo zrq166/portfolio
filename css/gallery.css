@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+}
+.gallery > img {
+    border: 5px rosybrown groove;
+    margin: 10px;
+    width: 300px;
+}

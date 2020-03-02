@@ -1,0 +1,10 @@
+body{
+    font-family: Consolas, serif;
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
+.container {
+    padding: 70px;
+}
